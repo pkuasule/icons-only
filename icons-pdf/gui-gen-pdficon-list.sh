@@ -10,7 +10,7 @@
 # 0. Get full path of this script file √
 SCRIPT=$(readlink -f "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
-echo -e "\033[34m【QuickPoint】\033[0mDetected script path as ${SCRIPTPATH}."
+echo -e "\033[34m【ICONS-ONLY】\033[0mDetected script path as ${SCRIPTPATH}."
 
 cd ${SCRIPTPATH}
 # for every pdf file under SCRIPTPATH:
@@ -23,4 +23,4 @@ for file in $(find . -name "*.pdf")
     done
 
 # echo "Script successfully executed." when everything is done.
-echo -e "\033[34m【QuickPoint】\033[32mScript successfully exetuted.\033[0m"
+echo -e "\033[34m【ICONS-ONLY】\033[32mScript successfully exetuted.\033[0m"
