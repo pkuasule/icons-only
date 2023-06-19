@@ -2,8 +2,12 @@
 # find命令的参数设定至关重要。如果find命令的检测范围太广,后续的grep过滤器将无法完全排除某些文件,导致最终结果不尽人意。必须加深对find各参数和作用的理解。
 # 多个grep过滤器的串联使用以实现排除多种模式的文件。
 
-# Get the current directory path
-current_dir=$(pwd)   
+# 0. Get full path of this script file √
+SCRIPT=$(readlink -f "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+echo -e "\033[34m【ICONS-ONLY】\033[0mDetected script path as ${SCRIPTPATH}."
+
+cd ${SCRIPTPATH}
 
 # Create the index.txt file
 cat <<EOF > index.txt  
