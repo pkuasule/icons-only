@@ -1,4 +1,3 @@
-hakunamatata_where is it?
 ./advisory/advisory-agenda.pdf
 ./advisory/advisory-analytics.pdf
 ./advisory/advisory-approved.pdf
@@ -131,6 +130,7 @@ hakunamatata_where is it?
 ./communication/chat/chat-writing.pdf
 ./communication/chat/chat-yelling.pdf
 ./communication/chat/chat.pdf
+./communication/chat/hakunamatata.pdf
 ./communication/confrontation/confrontation-Disagreement.pdf
 ./communication/confrontation/confrontation-agreement.pdf
 ./communication/confrontation/confrontation-angry.pdf
