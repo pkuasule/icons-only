@@ -582,6 +582,7 @@
 ./hotel/hotel-window.pdf
 ./hotel/hotel.pdf
 ./index.txt
+./index_new.txt
 ./marketing/marketing-analytics.pdf
 ./marketing/marketing-block.pdf
 ./marketing/marketing-blogging.pdf
