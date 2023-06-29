@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf ./icons-pdf
 cp -r ./icons-svg ./icons-svg2pdf
 cp ./scripts/svg2pdf-batch.sh ./icons-svg2pdf/svg2pdf-batch.sh
 cd icons-svg2pdf

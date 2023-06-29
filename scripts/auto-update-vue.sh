@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf ./icons-vue
 cp -r ./icons-svg ./icons-svg2vue
 cp ./scripts/svg2vue-batch.sh ./icons-svg2vue/svg2vue-batch.sh
 cd icons-svg2vue

@@ -6,6 +6,7 @@ $ bash auto-update-vue.sh
 ```
 or
 ```bash
+$ rm -rf ./icons-vue
 $ cp -r ./icons-svg ./icons-svg2vue
 $ cp ./scripts/svg2vue-batch.sh ./icons-svg2vue/svg2vue-batch.sh
 $ cd icons-svg2vue
@@ -23,6 +24,7 @@ $ bash auto-update-pdf.sh
 ```
 or
 ```bash
+$ rm -rf ./icons-vue
 $ cp -r ./icons-svg ./icons-svg2pdf
 $ cp ./scripts/svg2pdf-batch.sh ./icons-svg2pdf/svg2pdf-batch.sh
 $ cd icons-svg2pdf
