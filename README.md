@@ -2,7 +2,7 @@
 1. Update svg files in /icons-svg
 2. Auto-update vue files
 ```bash
-$ bash auto-update-vue.sh
+$ bash ./scripts/auto-update-vue.sh
 ```
 or
 ```bash
@@ -20,11 +20,11 @@ $ mv icons-svg2vue icons-vue
 ```
 3. Auto-update pdf files
 ```bash
-$ bash auto-update-pdf.sh
+$ bash ./scripts/auto-update-pdf.sh
 ```
 or
 ```bash
-$ rm -rf ./icons-vue
+$ rm -rf ./icons-pdf
 $ cp -r ./icons-svg ./icons-svg2pdf
 $ cp ./scripts/svg2pdf-batch.sh ./icons-svg2pdf/svg2pdf-batch.sh
 $ cd icons-svg2pdf
